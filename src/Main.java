@@ -15,5 +15,11 @@ public class Main {
             if(i%2==0)
                 System.out.print(i+" ");
         System.out.println();
+
+        System.out.println("Fourth Task 1.4."); // Fourth Task 1.4.
+        for(int i =10; i>=-10;  System.out.print(i+" "), i--);
+        System.out.println();
+
+
     }
 }
