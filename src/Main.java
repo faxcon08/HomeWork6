@@ -31,7 +31,11 @@ public class Main {
                 System.out.println(i+" год является високосным");
 
         System.out.println(ANSI_RED+"Sixth Task 2.2"+ANSI_RESET); // Sixth Task 2.2.
-
+        for(int i = 0, j=1;i<10;j*=2,i++){
+                System.out.print(j+" ");
+        }
+        System.out.println();
 
     }
+
 }
