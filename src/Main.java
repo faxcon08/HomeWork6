@@ -45,6 +45,12 @@ public class Main {
 
 
         System.out.println(ANSI_RED+"Eighth Task 3.2"+ANSI_RESET); // EighTh Task 3.2;
+        total =0;
+        for (int i = 1; i<=12; i++){
+            total+=total/100;
+            total+=salary;
+            System.out.println("Месяц "+i+", сумма накоплений равна "+total+" рублей");
+        }
 
     }
 
