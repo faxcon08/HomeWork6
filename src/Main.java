@@ -46,10 +46,23 @@ public class Main {
 
         System.out.println(ANSI_RED+"Eighth Task 3.2"+ANSI_RESET); // EighTh Task 3.2;
         total =0;
-        for (int i = 1; i<=12; i++){
+        for (int i = 1; i<=12;i++){
             total+=total/100;
             total+=salary;
-            System.out.println("Месяц "+i+", сумма накоплений равна "+total+" рублей");
+            System.out.println("Месяц "+(i)+", сумма накоплений равна "+total+" рублей");
+        }
+
+        // Task 4.1;
+        for(int i = 1; i<=30;i++){
+            System.out.print(i+" "+ ((i%3==0)?"ping":"")+((i%5==0)?"pong":""));
+            System.out.println();
+        }
+        // Task 4.2
+        int first=0, second=1;
+        for(int i =0; i<5;i++){
+            System.out.print(first+", "+second+", ");
+            first+=second;
+            second+=first;
         }
 
     }
