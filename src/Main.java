@@ -36,6 +36,16 @@ public class Main {
         }
         System.out.println();
 
+        System.out.println(ANSI_RED+"Seventh Task 3.1"+ANSI_RESET); // Seventh Task 3.1;
+        int total = 0, salary = 29_000;
+        for (int i = 1; i<=12; i++){
+            total+=salary;
+            System.out.println("Месяц "+i+", сумма накоплений равна "+total+" рублей");
+        }
+
+
+        System.out.println(ANSI_RED+"Eighth Task 3.2"+ANSI_RESET); // EighTh Task 3.2;
+
     }
 
 }
